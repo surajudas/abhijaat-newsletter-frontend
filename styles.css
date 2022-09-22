@@ -1,0 +1,26 @@
+// compileCompressed: main.css, compileOnSave, sourceComments: false, indentType: space, precision: 5, sourceMap: true, sourceMapEmbed: true
+
+html {
+    height: 100%;
+}
+
+.sprite {
+    width: 750px;
+    height: 392px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    background-image: url("https://www.payway.com/wp-content/themes/payway-v1/images/animation/birds-crossing/vr.png");
+    animation: birdsCrossingWeb 5500ms steps(110) infinite 1000ms;
+}
+
+@keyframes birdsCrossingWeb {
+    from {
+        background-position-y: 0;
+    }
+
+    to {
+        background-position-y: -43120px;
+    }
+}
